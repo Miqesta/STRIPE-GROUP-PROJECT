@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 1, 920px;
+    height: 1, 112px;
+  }
+  
+  .aGlobal-Scale-Main-Info {
+    width: Fill (1, 080px) px;
+    height: Fill (911px) px;
+    padding: 287px 0px 128px 0px;
+  }
+  
+  .a-main-info-two-sections {
+    width: Fill (1, 080px) px;
+    height: 496px;
+    gap: 96px;
+  }
+  
+  .a-main-info-first-section {
+    width: Fill (1, 080px) px;
+    height: 312px;
+  }
+  
+  .a-heading-one {
+    width: Fill (810px) px;
+    height: Fixed (148px) px;
+    padding: 0px 120px 0px 16px;
+    gap: 24px;
+  }
+  
+  .a-main-pharagraph {
+    width: Fill (810px) px;
+    height: Fixed (140px) px;
+    padding: 0px 112px 0px 16px;
+  }
+  
+  .a-main-info-second-section {
+    width: Fill (1, 080px) px;
+    height: 88px;
+  }
+  
+  .a-2s-section {
+    width: Fixed (270px) px;
+    height: 88px;
+    gap: 8px;
+  }
+  
+  .a-2s-section-header {
+    width: Fill (270px) px;
+    height: Fixed (32px) px;
+    padding: 0px 32px 0px 16px;
+  }
+  
+  .a-2s-1s-paragraph {
+    width: Fill (270px) px;
+    height: Fixed (48px) px;
+    padding: 0px 32px 0px 16px;
+  }
+  
+  .a-2s-section-vertical {
+    width: 1px;
+    height: 24px;
+    background: #00d4ff;
+  }
+  
+  .a-2s-section-header-paragraph {
+    width: Fill (222px) px;
+    height: Fixed (32px) px;
+  }
+  
+  .a-2s-section-p {
+    width: 84px;
+    height: 32px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    text-underline-position: from-font;
+  }
+  
+  .a-2s-section-main-paragraph {
+    width: Fill (270px) px;
+    height: Fixed (48px) px;
+    padding: 0px 32px 0px 16px;
+  }
+  
+  .a-2s-main-p {
+    width: 222px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+  }
+  
