@@ -1,42 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
+    
     
   }
   
   body {
     width: 1920px;
     height: 1112px;
-
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    
   }
 
-  .aBackground {
+  .aGlobalScale {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: pink; /* Pink background color */
-    clip-path: polygon(0 23%, 100% 2%, 100% 100%, 0% 100%);
-    z-index: -1; /* Ensure it stays behind other content */
+    height: 100vh;
+    background-color:#0A2540; /* Pink background color */
+    clip-path: polygon(70% 0, 100% 0, 100% 100%, 0 100%, 0 14%);
+    z-index: 1; /* Ensure it stays behind other content */
   }
   
 
   .aGlobal-Scale-Main-Info {
     width: Fill (1, 080px) px;
     height: Fill (911px) px;
-    padding: 287px 0px 128px 0px;
-    margin-left:420px;
+    position: relative;
+    z-index: 2;
+    margin-left:230px;
     margin-right:420px;
-    margin-top: 150px;
+    margin-top: 230px;
+    
+
   }
 
+  .a-global-scale-main-heading {
+    margin-top: 20px;
+    width: Fill (674px)px;
+    height: Fixed (96px)px;
+    margin-bottom: 20px;
+    margin-right: 400px;
+    color: white;
+    font-size: 22px;
+  }
   
   
   .a-main-info-two-sections {
     width: Fill (1, 080px) px;
     height: 496px;
     gap: 96px;
+    
   }
   
   .a-main-info-first-section {
@@ -55,12 +76,19 @@
     width: Fill (810px) px;
     height: Fixed (140px) px;
     padding: 0px 112px 0px 16px;
+    color: #ADBDCC;
+    margin-right: 350px;
+    line-height: 1.5;
   }
   
   .a-main-info-second-section {
     width: Fill (1, 080px) px;
     height: 88px;
     display: flex;
+    justify-content: center;
+    z-index: 3;
+    margin-left:255px;
+    margin-top:55px;
     
   }
   
@@ -92,7 +120,8 @@
     width: Fill (222px) px;
     height: Fixed (32px) px;
     margin-top: -27.5px;
-    margin-left: 15px;
+    margin-left: 17px;
+    color: white;
   }
   
 a{
@@ -116,16 +145,25 @@ a{
     width: Fill (270px) px;
     height: Fixed (48px) px;
     padding: 0px 32px 0px 16px;
+    margin-left: 19px;
+    color: #ADBDCC;
+    margin-top: 7px;
   }
   
   .a-2s-main-p {
     width: 222px;
     height: 48px;
     font-family: Inter;
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.2px;
     text-align: left;
   }
   
+  .a-global-scale {
+    color: #00D4FF;
+  }
+
+
+
